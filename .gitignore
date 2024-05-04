@@ -1,2 +1,3 @@
 **/code
 prod-start.sh
+**/.env*prod
