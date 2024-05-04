@@ -1,0 +1,12 @@
+services:
+  front:
+    build: "./front"
+    ports:
+      - "8025:5173"
+  back:
+    build: "./back"
+    ports:
+      - "8026:8888"
+  storage:
+    image: "redis"
+    hostname: redis
