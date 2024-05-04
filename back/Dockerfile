@@ -14,4 +14,4 @@ RUN make build
 
 EXPOSE 8888
 
-CMD ["./dist/chezz"]
+CMD ["make", "run"]
