@@ -10,7 +10,7 @@ RUN npm install
 COPY ./code/. .
 COPY ./code/.env.local .
 # Expose port
-EXPOSE 5137
+EXPOSE 5173
 RUN npm run build
 
 # Start the app

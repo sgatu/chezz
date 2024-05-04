@@ -12,6 +12,6 @@ COPY ./code/.env.dev ./.env.dev
 
 RUN make build
 
-EXPOSE 5173
+EXPOSE 8888
 
 CMD ["./dist/chezz"]
