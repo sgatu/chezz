@@ -12,6 +12,6 @@ Open your browser on http://localhost:8025
 
 #### Configuration
 
-Any relevante changes can be done by modifying .env.back, .env.front and docker-compose.yml.
+Any relevant changes can be done by modifying .env.back, .env.front and docker-compose.yml.
 
 
